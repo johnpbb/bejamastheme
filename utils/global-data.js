@@ -4,10 +4,10 @@ export const getGlobalData = () => {
     : 'igiveadvice';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
-    : 'Next.js Blog Theme';
+    : 'igiveadvice';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'All rights reserved.';
+    : 'All rights reserved. Copyright 2024.';
 
   return {
     name,
